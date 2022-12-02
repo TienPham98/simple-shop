@@ -23,7 +23,7 @@ const checkout = ({ cart, subTotal, addToCart, removeFromCart }) => {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
         </div>
@@ -37,7 +37,7 @@ const checkout = ({ cart, subTotal, addToCart, removeFromCart }) => {
               type="email"
               id="email"
               name="email"
-              className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
         </div>
@@ -53,7 +53,7 @@ const checkout = ({ cart, subTotal, addToCart, removeFromCart }) => {
             id="address"
             cols="30"
             rows="2"
-            className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
           >
             Phone City this.state.first
           </textarea>
@@ -70,7 +70,7 @@ const checkout = ({ cart, subTotal, addToCart, removeFromCart }) => {
               type="text"
               id="phone"
               name="phone"
-              className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
         </div>
@@ -84,7 +84,7 @@ const checkout = ({ cart, subTotal, addToCart, removeFromCart }) => {
               type="text"
               id="city"
               name="city"
-              className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
         </div>
@@ -100,7 +100,7 @@ const checkout = ({ cart, subTotal, addToCart, removeFromCart }) => {
               type="text"
               id="state"
               name="state"
-              className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
         </div>
@@ -114,14 +114,14 @@ const checkout = ({ cart, subTotal, addToCart, removeFromCart }) => {
               type="text"
               id="pincode"
               name="pincode"
-              className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
         </div>
       </div>
 
       <h2 className="font-bold text-xl mb-2">2. Review Cart Items</h2>
-      <div className=" bg-purple-100 m-2 p-6  ">
+      <div className=" bg-indigo-100 m-2 p-6  ">
         <ul className="list-decimal">
           {Object.keys(cart).length === 0 && (
             <div className="my-4  font-semibold ">Your cart is empty</div>
@@ -169,7 +169,7 @@ const checkout = ({ cart, subTotal, addToCart, removeFromCart }) => {
       </div>
       <div className="mx-2">
         <Link href={"/checkout"}>
-          <button className="flex bg-purple-300 border-0 py-2 px-3 focus:outline-none hover:bg-purple-400 font-md rounded text-lg">
+          <button className="flex bg-indigo-300 border-0 py-2 px-3 focus:outline-none hover:bg-indigo-400 font-md rounded text-lg">
             <BsFillBagCheckFill className="mt-1 mx-1" />
             Pay: {subTotal}$
           </button>

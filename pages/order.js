@@ -15,13 +15,13 @@ const oder = () => {
                 Order Id: 1234
               </h1>
               <div class="flex mb-4">
-                <a class="flex-grow text-gray-800 border-b-2 border-purple-500 py-2 text-lg px-2">
+                <a class="flex-grow text-gray-800 border-b-2 border-indigo-500 py-2 text-lg px-2">
                   Product
                 </a>
-                <a class="flex-grow text-gray-800 border-b-2 border-purple-500 py-2 text-lg text-center">
+                <a class="flex-grow text-gray-800 border-b-2 border-indigo-500 py-2 text-lg text-center">
                   Quantity
                 </a>
-                <a class="flex-grow text-gray-800 border-b-2 border-purple-500 py-2  text-center text-lg ">
+                <a class="flex-grow text-gray-800 border-b-2 border-indigo-500 py-2  text-center text-lg ">
                   Item Total
                 </a>
               </div>
@@ -47,7 +47,7 @@ const oder = () => {
                 </span>
 
                 <div className="my-2">
-                  <button class="flex mx-0 text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded">
+                  <button class="flex mx-0 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
                     Track Order
                   </button>
                 </div>
